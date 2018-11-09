@@ -1,0 +1,6 @@
+{
+   "_comment": "geschlecht = 0 => Weiblich; geschlecht = 1 => Männlich",
+  "geschlecht": 0,
+   "_comment2": "en_US;en_GB;en_AU",
+  "sprache": "en_GB"
+}
