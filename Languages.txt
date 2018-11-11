@@ -1,3 +1,5 @@
+﻿Niederländisch (Niederlande)	Standard	nl-NL	nl-NL-Standard-A	WEIBLICH
+Niederländisch (Niederlande)	WaveNet	nl-NL	nl-NL-Wavenet-A	WEIBLICH
 Englisch (Australien)	Standard	en-AU	en-AU-Standard-A	WEIBLICH
 Englisch (Australien)	Standard	en-AU	en-AU-Standard-B	MÄNNLICH
 Englisch (Australien)	Standard	en-AU	en-AU-Standard-C	WEIBLICH
@@ -24,3 +26,33 @@ Englisch (USA)	WaveNet	en-US	en-US-Wavenet-C	WEIBLICH
 Englisch (USA)	WaveNet	en-US	en-US-Wavenet-D	MÄNNLICH
 Englisch (USA)	WaveNet	en-US	en-US-Wavenet-E	WEIBLICH
 Englisch (USA)	WaveNet	en-US	en-US-Wavenet-F	WEIBLICH
+Französisch	Standard	fr-FR	fr-FR-Standard-A	WEIBLICH
+Französisch	Standard	fr-FR	fr-FR-Standard-B	MÄNNLICH
+Französisch	Standard	fr-FR	fr-FR-Standard-C	WEIBLICH
+Französisch	Standard	fr-FR	fr-FR-Standard-D	MÄNNLICH
+Französisch	WaveNet	fr-FR	fr-FR-Wavenet-A	WEIBLICH
+Französisch	WaveNet	fr-FR	fr-FR-Wavenet-B	MÄNNLICH
+Französisch	WaveNet	fr-FR	fr-FR-Wavenet-C	WEIBLICH
+Französisch	WaveNet	fr-FR	fr-FR-Wavenet-D	MÄNNLICH
+Französisch (Kanada)	Standard	fr-CA	fr-CA-Standard-A	WEIBLICH
+Französisch (Kanada)	Standard	fr-CA	fr-CA-Standard-B	MÄNNLICH
+Französisch (Kanada)	Standard	fr-CA	fr-CA-Standard-C	WEIBLICH
+Französisch (Kanada)	Standard	fr-CA	fr-CA-Standard-D	MÄNNLICH
+Deutsch	Standard	de-DE	de-DE-Standard-A	WEIBLICH
+Deutsch	Standard	de-DE	de-DE-Standard-B	MÄNNLICH
+Deutsch	WaveNet	de-DE	de-DE-Wavenet-A	WEIBLICH
+Deutsch	WaveNet	de-DE	de-DE-Wavenet-B	MÄNNLICH
+Deutsch	WaveNet	de-DE	de-DE-Wavenet-C	WEIBLICH
+Deutsch	WaveNet	de-DE	de-DE-Wavenet-D	MÄNNLICH
+Italienisch	Standard	it-IT	it-IT-Standard-A	WEIBLICH
+Italienisch	WaveNet	it-IT	it-IT-Wavenet-A	WEIBLICH
+Japanisch	Standard	ja-JP	ja-JP-Standard-A	WEIBLICH
+Japanisch	WaveNet	ja-JP	ja-JP-Wavenet-A	WEIBLICH
+Koreanisch	Standard	ko-KR	ko-KR-Standard-A	WEIBLICH
+Koreanisch	WaveNet	ko-KR	ko-KR-Wavenet-A	WEIBLICH
+Portugiesisch (Brasilien)	Standard	pt-BR	pt-BR-Standard-A	WEIBLICH
+Spanisch	Standard	es-ES	es-ES-Standard-A	WEIBLICH
+Schwedisch	Standard	sv-SE	sv-SE-Standard-A	WEIBLICH
+Schwedisch	WaveNet	sv-SE	sv-SE-Wavenet-A	WEIBLICH
+Türkisch	Standard	tr-TR	tr-TR-Standard-A	WEIBLICH
+Türkisch	WaveNet	tr-TR	tr-TR-Wavenet-A	WEIBLICH

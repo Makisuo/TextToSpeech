@@ -8,7 +8,7 @@ const config = require("./config.json")
 const client = new textToSpeech.TextToSpeechClient({
   keyFilename: './apikey.json'
 });
-const text  = fs.readFileSync('./txt.txt', 'utf8');
+const text  = fs.readFileSync('./text.txt', 'utf8');
 console.log(text);
 requestData(config.geschlecht,config.sprache);
 function listVoices(){
