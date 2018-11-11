@@ -30,6 +30,7 @@ Date.prototype.yyyymmdd = function() {
 
 
 const ssml = fs.readFileSync('./text.txt', 'utf8')
+console.log(ssml);
 const outputFile = './audio/'+ config.name + makeid() + '.mp3';
 
 const request = {

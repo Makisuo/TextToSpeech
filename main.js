@@ -78,12 +78,12 @@ function requestData() {
     }
 
     // Write the binary audio content to a local file
-    fs.writeFile("./audio/" + config.name + " "+ makeid() +'.mp3', response.audioContent, 'binary', err => {
+    fs.writeFile("./audio/" + config.name + " Standard "+ makeid() +'.mp3', response.audioContent, 'binary', err => {
       if (err) {
         console.error('ERROR:', err);
         return;
       }
-      console.log('Audio content written to file: output.mp3');
+      console.log('Audio content written to file:'+ "./audio/" + config.name + " Standard "+ makeid() +'.mp3');
     });
   });
 }
