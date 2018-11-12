@@ -1,0 +1,11 @@
+{
+  "pkg": {
+    "assets": [
+      "./config.json",
+      "./apikey.json"
+    ]
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.3.0"
+  }
+}

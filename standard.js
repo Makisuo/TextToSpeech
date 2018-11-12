@@ -9,6 +9,17 @@ const client = new textToSpeech.TextToSpeechClient({
   keyFilename: './apikey.json'
 });
 
+if (!fs.existsSync("audio")){
+    fs.mkdirSync("audio");
+}
+
+if (!fs.existsSync("text.txt")){
+  fs.writeFileSync("./text.txt")
+  return;
+}
+
+process.stdin.resume();
+
 Date.prototype.yyyymmdd = function() {
    var yyyy = this.getFullYear();
    var mm = this.getMonth() < 9 ? "0" + (this.getMonth() + 1) : (this.getMonth() + 1); // getMonth() is zero-based
