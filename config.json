@@ -1,8 +1,8 @@
 {
-   "_comment": "geschlecht = 0 => Weiblich; geschlecht = 1 => Männlich",
-  "geschlecht": 0,
-   "_comment2": "en-US;en-GB;en-AU or de-DE kr-KR",
-  "sprache": "en-GB",
-  "_comment2": "name of the file + date",
-  "name": "TTS"
+  "_comment": "gender: 0 => Weiblich; gender = 1 => Männlich",
+  "gender": 0,
+   "_comment2": "en-US; en-GB; en-AU; de-DE; kr-KR",
+  "language": "en-GB",
+  "_comment3": "name of the file + date",
+  "name": "IOK"
 }

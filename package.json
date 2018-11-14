@@ -1,8 +1,5 @@
 {
   "pkg":{
-    "assests":[
-      "./node/grpc_node.node",
-      "./config.json"
-    ]
+    "assets": "./config.json"
   }
 }

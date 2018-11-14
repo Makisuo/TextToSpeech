@@ -2,20 +2,22 @@
 const fs = require('fs');
 // Imports the Google Cloud client library
 const textToSpeech = require('@google-cloud/text-to-speech');
-const config = require("./config.json")
+const config_tmp = require("./config.json")
 
 // Creates a client
 const client = new textToSpeech.TextToSpeechClient({
   projectId: "texttospeecheg",
    credentials: {
-       private_key: "yourkey",
+       private_key: "yourkey"
        client_email: "mainmakisuo@texttospeecheg.iam.gserviceaccount.com"
    }
 });
 
 if(!fs.existsSync("config.json")){
-  fs.writeFileSync("./config.js",  JSON.stringify(config, null, 2))
+  fs.writeFileSync("./config.json",  JSON.stringify(config_tmp, null, 2))
 }
+
+const config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 
 if (!fs.existsSync("audio")){
     fs.mkdirSync("audio");
@@ -50,7 +52,7 @@ Date.prototype.yyyymmdd = function() {
 
 const text  = fs.readFileSync('./text.txt', 'utf8');
 console.log(text);
-requestData(config.geschlecht,config.sprache);
+requestData();
 function listVoices(){
   client
     .listVoices({})
@@ -82,7 +84,7 @@ function requestData() {
   const request = {
     input: {text: text},
     // Select the language and SSML Voice Gender (optional)
-    voice: {languageCode: config.sprache, ssmlGender: config.geschlecht},
+    voice: {languageCode: config.language, ssmlGender: config.gender},
     // Select the type of audio encoding
     audioConfig: {audioEncoding: 'MP3'},
   };
@@ -106,14 +108,8 @@ function requestData() {
 }
 
 function makeid() {
-  var text = "";
-  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   var d = new Date();
   var res = d.yyyymmddhhmmss();
 
-
-  for (var i = 0; i < 5; i++)
-    text += possible.charAt(Math.floor(Math.random() * possible.length));
-
-  return res+" "+text;
+  return res;
 }
