@@ -1,5 +1,8 @@
 {
-  "pkg": {
-    "scripts": "./node_modules/grpc/src/node/extension_binary/node-v64-win32-x64-unknown/grpc_node.node"
+  "pkg":{
+    "assests":[
+      "./node/grpc_node.node",
+      "./config.json"
+    ]
   }
 }

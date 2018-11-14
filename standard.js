@@ -6,8 +6,16 @@ const config = require("./config.json")
 
 // Creates a client
 const client = new textToSpeech.TextToSpeechClient({
-  keyFilename: './apikey.json'
+  projectId: "texttospeecheg",
+   credentials: {
+       private_key: "yourkey",
+       client_email: "mainmakisuo@texttospeecheg.iam.gserviceaccount.com"
+   }
 });
+
+if(!fs.existsSync("config.json")){
+  fs.writeFileSync("./config.js",  JSON.stringify(config, null, 2))
+}
 
 if (!fs.existsSync("audio")){
     fs.mkdirSync("audio");
@@ -17,8 +25,6 @@ if (!fs.existsSync("text.txt")){
   fs.writeFileSync("./text.txt")
   return;
 }
-
-process.stdin.resume();
 
 Date.prototype.yyyymmdd = function() {
    var yyyy = this.getFullYear();
