@@ -1,6 +1,6 @@
 {
    "_comment": "geschlecht = 0 => Weiblich; geschlecht = 1 => Männlich",
-  "geschlecht": 1,
+  "geschlecht": 0,
    "_comment2": "en_US;en_GB;en_AU or de_DE",
   "sprache": "en-GB",
   "_comment2": "name of the file",
